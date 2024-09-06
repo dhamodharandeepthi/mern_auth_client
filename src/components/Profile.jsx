@@ -11,7 +11,7 @@ const Profile = () => {
     useEffect(() => {
         const fetchProfile = async () => {
             try {
-                const response = await axios.get('http://localhost:8000/api/auth/profile', {
+                const response = await axios.get('https://mern-auth-server-3opw.onrender.com/api/auth/profile', {
                     headers: { Authorization: `Bearer ${token}` }
                 });
                 setProfile(response.data);

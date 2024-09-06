@@ -12,7 +12,7 @@ const Login = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            const response = await axios.post('http://localhost:8000/api/auth/login', { username, password });
+            const response = await axios.post('https://mern-auth-server-3opw.onrender.com/api/auth/login', { username, password });
             localStorage.setItem('token', response.data.token);
             navigate('/profile');
         } catch (error) {
