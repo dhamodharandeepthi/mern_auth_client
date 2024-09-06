@@ -30,7 +30,7 @@ const Profile = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
-            await axios.put('http://localhost:8000/api/auth/profile', formData, {
+            await axios.put('https://mern-auth-server-3opw.onrender.com/api/auth/profile', formData, {
                 headers: { Authorization: `Bearer ${token}` }
             });
             setProfile(formData);
