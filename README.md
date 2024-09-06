@@ -2,6 +2,14 @@
 
 This is a MERN (MongoDB, Express, React, Node.js) stack application that allows users to sign up, log in, and manage their profile. The app uses JWT (JSON Web Token) for secure authentication.
 
+## App link
+
+https://mern-auth-implementation.netlify.app/
+
+## Demo Video
+
+https://github.com/user-attachments/assets/7ad66df7-1d45-44d6-8c95-3bde3bd8750b
+
 ## Features
 
 User registration (Sign Up)
